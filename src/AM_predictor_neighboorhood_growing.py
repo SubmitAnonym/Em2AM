@@ -86,8 +86,8 @@ if __name__ =="__main__":
 
     FLOAT = torch.float32
 
-
-    graph_path= "/data/shared/graphvis-pytorch-geometric_data/grids_with_shape_graphs//"
+    print("Replace graph path with your own data location.")
+    graph_path = "./grids_approx//"
     assert (os.path.exists(graph_path))
     shape_graph = ("dt_edge_index","dt_layout_id")
     layouts = []

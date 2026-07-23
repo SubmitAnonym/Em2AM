@@ -17,6 +17,6 @@ Em2AM was implemented and tested in Python 3.12
 
 `requirements.txt` This environment was used to train the model in the Em2AM framework
 
-`requirements_freeze.txt` This environment contains the result of `pip freeze` during our experiments, giving exact edpendencies and versions used.
+`requirements_freeze.txt` This environment contains the result of `pip freeze` during our experiments, giving exact dependencies and versions used.
 
 `make` to launch the training from its entry point `src/AM_predictor_neighboorhood_growing.py`
